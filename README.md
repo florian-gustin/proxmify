@@ -6,10 +6,10 @@
     ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝        ╚═╝   
 
 
-[![PyPI version](https://img.shields.io/pypi/v/readmeai?color=blueviolet)](https://badge.fury.io/py/readmeai)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/readmeai.svg?color=blueviolet)](https://pypi.python.org/pypi/readmeai/)
-![GitHub last commit](https://img.shields.io/github/last-commit/eli64s/readme-ai.svg?color=blueviolet)
-![License: MIT](https://img.shields.io/github/license/eli64s/readme-ai?color=blueviolet)
+
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
+[![Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ---
 
@@ -37,6 +37,9 @@
 
 This script is designed to automate the creation, modification, and deletion of containers and virtual machines on a Proxmox server using SSH. It reads configuration information from YAML and JSON files and executes the necessary commands on the Proxmox server.
 
+- Creation ✅
+- Modification ✅ (only applicable to the creation of a cloud-init virtual machine)
+- Deletion ⚠️ (by default, the process attempts to delete the existing process ID)
 ---
 
 # Prerequisites
