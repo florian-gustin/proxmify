@@ -1,0 +1,19 @@
+[
+  {
+    "server": "server1",
+    "type": "vm_ci",
+    "initial_id": 10000,
+    "id": 101,
+    "hostname": "alma8-ci-vm",
+    "sockets": 1,
+    "cores": 2,
+    "mem": 2048,
+    "ipv4_cicdr": "192.168.9.2/24",
+    "gateway": "192.168.9.254",
+    "storage_qty": 25,
+    "user": "admin",
+    "password": "password",
+    "use_ssh_keys": true
+  }
+]
+

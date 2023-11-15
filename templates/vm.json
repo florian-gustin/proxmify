@@ -1,0 +1,19 @@
+[
+  {
+    "server": "server1",
+    "type": "vm",
+    "image_path": "/mnt/pve/data-iso/template/iso/ubuntu-22.04.3-live-server-amd64.iso",
+    "os_type": "l26",
+    "id": 101,
+    "hostname": "ubuntu-vm",
+    "sockets": 1,
+    "cores": 2,
+    "mem": 512,
+    "ipv4_cicdr": "192.168.9.2/24",
+    "gateway": "192.168.9.254",
+    "storage": "local-zfs",
+    "storage_qty": 20,
+    "bridge": "vmbr2"
+  }
+]
+

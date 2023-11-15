@@ -1,0 +1,8 @@
+servers:
+  server1:
+    ip: "X.X.X.X"
+    user: "your_user"
+    port: 'your_port'
+    password: "your_password"
+    ssh_authorized_keys:
+      - "your_ssh_key"
