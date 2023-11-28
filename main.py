@@ -190,7 +190,7 @@ def process_create_container(ssh_client, meta, config, password):
     cmd1 = f"echo 'lxc.cgroup2.devices.allow: c 10:200 rwm' | sudo tee -a /etc/pve/lxc/{meta['id']}.conf"
     error = sudo_cmd(cmd1, error, password, ssh_client)
 
-    cmd2 = f"echo 'lxc.mount.entry: /dev/net/tun dev/net/tun none bind,create=file' | sudo tee -a /etc/pve/lxc/${meta['id']}.conf"
+    cmd2 = f"echo 'lxc.mount.entry: /dev/net/tun dev/net/tun none bind,create=file' | sudo tee -a /etc/pve/lxc/{meta['id']}.conf"
     error = sudo_cmd(cmd2, error, password, ssh_client)
 
     ssh_client.exec_command("rm /tmp/temp_file")
